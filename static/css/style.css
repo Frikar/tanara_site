@@ -1,0 +1,168 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+    font-family: 'Red Hat Text', sans-serif;
+}
+
+nav ul a,
+nav .brand-logo {
+    color: #f8fff9;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #f8fff9;
+}
+
+.parallax-container {
+    line-height: 0;
+    height: 100vh;
+    color: rgba(255, 255, 255, .9);
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+.navbar-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+
+    nav .brand-logo {
+        font-size: 1.8rem;
+        margin-left: 0;
+    }
+
+    #index-banner .section {
+        top: 10%;
+    }
+
+    .navbar-container {
+    padding-left: 0;
+    padding-right: 0;
+}
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    nav .brand-logo {
+        font-size: 2.1rem;
+        margin-left: 1rem;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    z-index: 1;
+    position: absolute;
+}
+
+.parallax-box {
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.60);
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.font-parallax {
+    text-align: justify;
+}
+
+.padding-text {
+    padding: 0 4rem !important;
+}
+
+.parallax-test {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal1.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test2 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal2.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test3 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal3.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+
+.parallax-test4 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal4.jpg') no-repeat fixed center;
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test5 {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal5.jpg') no-repeat fixed center;
+    background-size: cover;
+}
