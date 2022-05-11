@@ -1,0 +1,96 @@
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    z-index: 1;
+    position: absolute;
+}
+
+.font-parallax {
+    text-align: justify;
+}
+
+.padding-text {
+    padding: 0 4rem !important;
+}
+
+.parallax-test {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal1.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test2 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal2.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test3 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal3.jpg') no-repeat fixed center;
+
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+
+.parallax-test4 {
+    /* The image used */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal4.jpg') no-repeat fixed center;
+
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background-size: cover;
+}
+
+.parallax-test5 {
+    /* The image used */
+    /* Set a specific height */
+    min-height: 100vh;
+
+    /* Create the parallax scrolling effect */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/static/images/animal5.jpg') no-repeat fixed center;
+    background-size: cover;
+}
+
+@media only screen and (max-width: 983px) {
+    .parallax-test {
+        background-attachment: scroll;
+    }
+
+    .parallax-test2 {
+        background-attachment: scroll;
+    }
+
+    .parallax-test3 {
+        background-attachment: scroll;
+    }
+
+    .parallax-test4 {
+        background-attachment: scroll;
+    }
+
+    .parallax-test5 {
+        background-attachment: scroll;
+    }
+}
